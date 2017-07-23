@@ -8,6 +8,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 
 Plugin 'lu-ren/SerialExperimentsLain'
 
+Plugin 'mattn/emmet-vim'
+
 call vundle#end()
 filetype plugin indent on
 
