@@ -48,5 +48,4 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
-" fix indendt
 command! W w !sudo tee % > /dev/null

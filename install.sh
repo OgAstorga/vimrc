@@ -11,7 +11,12 @@ mkdir -p ~/.vim/bundle
 # Install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-#  .vimrc
-ln -s ~/.vim_runtime/vimrcs/core.vim ~/.vimrc
+# Install plugins
+ln -s ~/.vim_runtime/vimrcs/pluginstall.vim ~/.vimrc
+vim +PluginInstall +qall
+
+# Reference final vimrc after pluginstall
+rm ~/.vimrc
+ln -s ~/.vim_runtime/vimrcs/main.vim ~/.vimrc
 
 echo "Installed vim configuration successfully!"
