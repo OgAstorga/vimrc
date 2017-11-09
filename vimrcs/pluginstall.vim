@@ -12,6 +12,8 @@ Plugin 'mattn/emmet-vim'
 
 Plugin 'airblade/vim-gitgutter'
 
+Plugin 'editorconfig/editorconfig-vim'
+
 call vundle#end()
 filetype plugin indent on
 
