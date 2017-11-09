@@ -12,10 +12,6 @@ Plugin 'mattn/emmet-vim'
 
 Plugin 'airblade/vim-gitgutter'
 
-Plugin 'pangloss/vim-javascript'
-
-Plugin 'mxw/vim-jsx'
-
 call vundle#end()
 filetype plugin indent on
 
