@@ -9,13 +9,12 @@ nnoremap <leader>sf :update<cr>
 set nocompatible
 set incsearch
 set tabstop=2
+set expandtab
 set shiftwidth=2
-set softtabstop=0 expandtab
+set softtabstop=2
 set smartcase
 set ignorecase
 set showmatch
-set autoindent
-set smartindent
 set hlsearch
 set relativenumber
 set number
@@ -30,6 +29,7 @@ set updatetime=250
 set cursorline
 set list
 set listchars=tab:>-,trail:~,extends:>,precedes:<,space:·
+set backupcopy=yes
 
 nnoremap <esc> :noh<cr>
 nnoremap <c-o> :tabe 
