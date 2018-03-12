@@ -23,3 +23,9 @@ let g:user_emmet_settings = {
 \   'extends': 'jsx',
 \ }
 \}
+
+
+""""""""""""""""""""""""""""""
+" => Vim-vue
+""""""""""""""""""""""""""""""
+autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
