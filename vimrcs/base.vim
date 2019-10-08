@@ -32,9 +32,6 @@ set listchars=tab:>-,trail:~,extends:>,precedes:<,space:·
 set backupcopy=yes
 
 nnoremap <esc> :noh<cr>
-nnoremap <c-o> :tabe 
-nnoremap <c-l> :tabn<cr>
-nnoremap <c-h> :tabp<cr>
 nnoremap <c-e> :Vexplore<cr>
 
 " dont allow arrow keys
