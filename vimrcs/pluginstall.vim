@@ -6,8 +6,6 @@ call vundle#begin()
 
 Plugin 'ctrlpvim/ctrlp.vim'
 
-Plugin 'lu-ren/SerialExperimentsLain'
-
 Plugin 'mattn/emmet-vim'
 
 Plugin 'airblade/vim-gitgutter'

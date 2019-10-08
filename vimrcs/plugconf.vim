@@ -10,12 +10,6 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 
 
 """"""""""""""""""""""""""""""
-" => colorscheme SerialExperimentsLain
-""""""""""""""""""""""""""""""
-colorscheme SerialExperimentsLain
-
-
-""""""""""""""""""""""""""""""
 " => Emmet
 """"""""""""""""""""""""""""""
 let g:user_emmet_settings = {
